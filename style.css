@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bdffc0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f8f0; /* lightest shade of green */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2e8b57; /* Dark Sea Green */
+}
+
+#quiz {
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2e8b57; /* Dark Sea Green */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3cb371; /* Medium Sea Green */
+}
+
+#result {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #2e8b57; /* Dark Sea Green */
+}
+
+.question {
+    color: #2e8b57; /* Dark Sea Green */
+}
+
+.answers label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.answers input[type=radio] {
+    margin-right: 5px;
+}
+
+
+#moreFunBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff9bff; /* Light Violet */
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px; /* Add some space between buttons */
+}
+
+#moreFunBtn:hover {
+    background-color: #ba55d3; /* Dark Orchid */
+}
+
+#games{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:lightcoral; /* Dark Sea Green */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+#games:hover{
+    background-color:rgb(232, 108, 108);
+
+}
